@@ -12,11 +12,11 @@ package org.taller.Modelo;
             System.out.println("Saldo: " + "$" + saldo);
         }
 
-        void consignar(double valor) {
+        public void consignar(double valor) {
             saldo += valor;
             System.out.println("Consignación de $" + valor + ". Nuevo saldo: $" + saldo);
         }
-        void retirar(double valor) {
+        public void retirar(double valor) {
             if (valor <= saldo) {
                 saldo -= valor;
                 System.out.println("Retiro de $" + valor + ". Nuevo saldo: $" + saldo);
