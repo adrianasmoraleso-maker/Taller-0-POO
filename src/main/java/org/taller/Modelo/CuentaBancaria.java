@@ -11,5 +11,10 @@ package org.taller.Modelo;
             System.out.println("Titular: "+ titular);
             System.out.println("Saldo: " + "$" + saldo);
         }
+
+        void consignar(double valor) {
+            saldo += valor;
+            System.out.println("Consignación de $" + valor + ". Nuevo saldo: $" + saldo);
+        }
     }
 
