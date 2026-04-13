@@ -11,4 +11,8 @@ package org.taller.Modelo;
             System.out.println("Especie: "+ especie);
             System.out.println("Edad: "+ edad);
         }
+        public void cumplirAnios() {
+            edad++;
+            System.out.println(nombre + " cumplió un año más. Ahora tiene " + edad + " años.");
+        }
     }
