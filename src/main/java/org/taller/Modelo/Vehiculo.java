@@ -5,7 +5,7 @@ package org.taller.Modelo;
         public String modelo;
         public int velocidadActual;
 
-        void mostrarEstado(){
+        public void mostrarEstado(){
 
             System.out.println("Marca del carro: "+ marca);
             System.out.println("Modelo del carro: "+ modelo);
