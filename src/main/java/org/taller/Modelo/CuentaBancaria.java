@@ -5,6 +5,13 @@ package org.taller.Modelo;
         public String titular;
         public int saldo;
 
+        // Ejercicio 27: constructor con número, titular y saldo inicial
+        CuentaBancaria(int numero, String titular, int saldo) {
+            this.numero = numero;
+            this.titular = titular;
+            this.saldo = saldo;
+        }
+
         public void mostrarCuenta(){
 
             System.out.println("Numero de cuenta: "+ numero);
