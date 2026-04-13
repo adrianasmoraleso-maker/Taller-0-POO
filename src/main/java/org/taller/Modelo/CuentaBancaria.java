@@ -16,5 +16,14 @@ package org.taller.Modelo;
             saldo += valor;
             System.out.println("Consignación de $" + valor + ". Nuevo saldo: $" + saldo);
         }
+        void retirar(double valor) {
+            if (valor <= saldo) {
+                saldo -= valor;
+                System.out.println("Retiro de $" + valor + ". Nuevo saldo: $" + saldo);
+            } else {
+                System.out.println("Saldo insuficiente para retirar $" + valor);
+            }
+        }
     }
+
 
