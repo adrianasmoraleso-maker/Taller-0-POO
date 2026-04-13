@@ -31,3 +31,19 @@ public class Ejercicio8 {
 
     }
 }
+
+//Ejercicio 20
+
+/*
+ * ¿Qué comparten y en qué se diferencian los 3 objetos creados?
+ *
+ * Lo que comparten:
+ * - La estructura definida por la clase Producto (tiene los mismos atributos: nombre, precio, stock).
+ * - El comportamiento: todos pueden invocar mostrarProducto().
+ * - El tipo: los tres son de tipo Producto.
+ *
+ * SE DIFERENCIAN:
+ * - Los valores de sus atributos son distintos (nombre, precio y stock diferentes).
+ * - Ocupan diferentes espacios en memoria (son referencias independientes).
+ * - Representan entidades del mundo real completamente distintas.
+ */
