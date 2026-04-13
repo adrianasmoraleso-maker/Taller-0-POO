@@ -17,6 +17,11 @@ public class Producto{
         this.stock = stock;
     }
 
+    //Metodo fabrica estatico (Ejercicio 31)
+
+    public static Producto crearProductoBasico(String nombre) {
+        return new Producto(nombre, 0, 0);
+    }
 
     public void mostrarProducto(){
 
