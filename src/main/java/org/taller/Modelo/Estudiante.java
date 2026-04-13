@@ -11,5 +11,10 @@ public class Estudiante{
         System.out.println("Codigo: "+ codigo);
         System.out.println("Semestre: "+ semestre);
     }
+
+    public void cambiarSemestre(int nuevoSemestre) {
+        System.out.println(nombre + " pasa del semestre " + semestre + " al " + nuevoSemestre);
+        semestre = nuevoSemestre;
+    }
 }
 
