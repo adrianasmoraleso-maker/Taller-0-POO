@@ -5,6 +5,19 @@ public class Producto{
     public int precio;
     public int stock;
 
+    //Constructor vacío (Ejercicio 26)
+    public Producto() {
+
+    }
+
+    // Constructor con parámetros
+    public Producto(String nombre, int precio, int stock) {
+        this.nombre = nombre;
+        this.precio = precio;
+        this.stock = stock;
+    }
+
+
     public void mostrarProducto(){
 
             System.out.println("Nombre del producto: "+ nombre);
