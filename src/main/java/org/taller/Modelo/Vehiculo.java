@@ -11,5 +11,8 @@ package org.taller.Modelo;
             System.out.println("Modelo del carro: "+ modelo);
             System.out.println("Velocidad actual: "+ velocidadActual + "km");
         }
-
+        public void acelerar() {
+            velocidadActual += 10;
+            System.out.println("Acelerando... nueva velocidad: " + velocidadActual);
+        }
        }
