@@ -17,8 +17,16 @@ public class Ejercicio10 {
         CuentaBancaria   cuenta2 = new CuentaBancaria();
         cuenta2.numero = 1025123523;
         cuenta2.titular = "Carlos López";
-        cuenta2.saldo = 320000;
+        cuenta2.saldo = 1500000;
 
         cuenta2.mostrarCuenta();
     }
 }
+
+// Ejercicio 21
+
+/* Se modificaron los valores del saldo de las cuentas
+ * para que fueran los mismos valores, y se mantuvieron
+ * los valores de los nombres y numeros, para que fueran
+ *distintos.
+ */
