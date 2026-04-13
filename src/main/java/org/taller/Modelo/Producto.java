@@ -20,5 +20,10 @@ public class Producto{
             System.out.println("No hay suficiente stock para vender " + cantidad + " unidades.");
         }
     }
+   public void reabastecer(int cantidad) {
+        stock += cantidad;
+        System.out.println("Reabastecidos " + cantidad + " de " + nombre + ". Stock total: " + stock);
     }
+}
+
 
