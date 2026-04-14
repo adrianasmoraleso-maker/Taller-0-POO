@@ -1,0 +1,42 @@
+Ejercicio 75: Conclusión Final
+
+¿Qué es una clase?:
+
+Una clase es un molde o plantilla que define la estructura y el comportamiento de un conjunto de objetos del mismo tipo.
+Especifica qué atributos (datos) los objetos y qué métodos (acciones) podrán ejecutar. La clase por sí no ocupa memoria de datos;
+es solo una definición abstracta. Por ejemplo, la clase Pedido describe cómo es cualquier pedido, sin ser un pedido concreto.
+
+¿Qué es un objeto?: Un objeto es una instancia concreta de una clase. Cuando se ejecuta new Pedido(), Java reserva espacio en memoria,
+copia la estructura definida por la clase y crea una entidad individual con sus propios valores. El objeto es el pedido real: tiene un número específico,
+un cliente específico y un estado específico. Puede haber tantos objetos como se necesiten creados a partir de la misma clase.
+
+¿Qué significa instanciar?: Instanciar es el proceso de crear un objeto a partir de una clase.
+En Java se hace con el operador new seguido del constructor: new NombreClase(). Este proceso implica: (1) reservar memoria en el heap,
+(2) ejecutar el constructor para inicializar el objeto y (3) devolver una referencia al objeto recién creado. Instanciar es prácticamente
+como "dar vida" a la plantilla.
+
+¿Por qué java usa clases como base de la POO?:
+Java es un lenguaje completamente orientado a objetos: todo el código (excepto los tipos primitivos) vive dentro de clases.
+Esta decisión de diseño se basa en principios de la Programación Orientada a Objetos (POO):
+
+Encapsulamiento: las clases agrupan datos y comportamiento en una unidad, protegiéndolos del acceso no autorizado.
+
+Abstracción: las clases permiten modelar entidades del mundo real de forma simplificada, ocultando detalles internos.
+
+Herencia: las clases pueden extenderse para reutilizar y ampliar código.
+
+Polimorfismo: objetos de distintas clases pueden responder al mismo mensaje de formas diferentes.
+
+Al usar clases como unidad fundamental, Java garantiza que el código sea modular, reutilizable, mantenible y escalable.
+Este paradigma transforma la programación en un ejercicio de modelado del mundo real, lo que hace más intuitivo diseñar,
+entender y extender sistemas de software complejos.
+
+Referencias:
+
+GeeksforGeeks. (s.f.). Object oriented programming (OOP) concept in Java.
+https://www-geeksforgeeks-org.translate.goog/java/object-oriented-programming-oops-concept-in-java/?_x_tr_sl=en&_x_tr_tl=es&_x_tr_hl=es&_x_tr_pto=tc&_x_tr_hist=true
+
+DataCamp. (2025). Introducción a la programación orientada a objetos en Java. https://www.datacamp.com/es/tutorial/oop-in-java
+López Blasco, J. (2023, octubre 27). Introducción a POO en Java: Objetos y clases. OpenWebinars.
+https://openwebinars.net/blog/introduccion-a-poo-en-java-objetos-y-clases/
+
