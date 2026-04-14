@@ -62,3 +62,26 @@ public class Ejercicio68 {
         p5.mostrarPedido();
 }
 }
+
+// ── Ejercicio 70: Explicación por escrito ────────────────────────
+/*
+ * Cuál fue la clase?
+ *
+ * La clase para la explicación de este ejercicio es: Pedido
+ *
+ * Cuáles fueron los objetos?
+ *
+ * Los objetos que se crearon a partir de esta clase fueron: p1 (Laura, $45.000), p2 (Carlos, $120.000),
+ * p3 (Marcela, $75.000), p4 (Felipe, $200.000), p5 (Diana, $32.000)
+ *
+ *Cuáles fueron sus atributos?
+ *
+ * Se definieron los atributos de cada objeto como: numero (identificador único), cliente (nombre del comprador),
+ * total (valor de la compra), estado (ciclo de vida del pedido).
+ *
+ *
+ * Cuáles fueron sus comportamientos?
+ *
+ * Según los metodos de la clase pedido, estos fueron los siguientes: procesar() cambia el estado a "en proceso",
+ * entregar() lo marca como entregado,mostrarPedido() imprime toda la información del pedido.
+ */
