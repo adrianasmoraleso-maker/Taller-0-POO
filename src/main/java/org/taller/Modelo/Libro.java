@@ -15,6 +15,13 @@ public class Libro {
         this.paginas = paginas;
     }
 
+    //Constructor copia
+    public Libro(Libro otro) {
+        this.titulo = otro.titulo;
+        this.autor = otro.autor;
+        this.paginas = otro.paginas;
+    }
+
     public void mostrarInfo() {
         System.out.println("Título: " + titulo);
         System.out.println("Autor: " + autor);
