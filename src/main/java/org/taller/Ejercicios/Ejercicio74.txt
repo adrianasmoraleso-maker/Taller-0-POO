@@ -1,0 +1,41 @@
+Comparación entre las 3 formas de construcción
+1.	Constructor con parámetros:
+Una de las principales ventajas que noté de este método es que cuando se crea el objeto,
+se inicializa de una vez. El código es breve y fácil de entender: new Lampara(“Philips”,false);
+solo se tienen que escribir los valores en el orden en el que se establecieron los atributos.
+En mi opinión y experiencia en este taller, considero que es la opción más recomendable para principiantes,
+en especial porque esta conecta directamente la creación del objeto con sus respectivos datos.
+
+Ejemplo:
+       Lampara l = new Lampara("Philips", false);
+       l.encender();
+
+2.	Método Fábrica:
+Una de sus ventajas el hecho de que posibilita la asignación de un nombre descriptivo a la creación (crearPuerta),
+lo que optimiza la legibilidad. Así como también facilita la inclusión de lógica en el comento de construir el objeto
+(como cuando se definió en el ejercicio 72 que toda puerta nueva se encuentra cerrada) y hacer la llamada del método
+directamente de la clase sin necesidad de tener que crear un objeto antes. Pero, en cuanto a utilizar este método como
+principiante, no lo veo muy recomendable, ya que se tiene que comprender primero que es static en el método y cómo funciona.
+
+Ejemplo:
+      Puerta p = Puerta.crearPuerta("Madera");
+      p.abrir();
+
+
+3.	Constructor copia:
+La ventaja principal que encontré en este constructor es que posibilita la duplicación controlada de objetos ya existentes,
+y es muy útil cuando se quiere comenzar con un objeto base y solo cambiar algunos datos, sin que estos afecten al objeto original.
+El único problema es que no es tan intuitivo al comienzo, y puede llegar a generar un poco de confusión respecto a la independencia de los datos.
+
+Ejemplo:
+      Pelicula original = new Pelicula("Interstellar", "Ciencia ficción", 169);
+      Pelicula copia = new Pelicula(original);
+      copia.nombre = "Copia de Interstellar"; // el original no se ve afectado
+
+Conclusión:
+Desde mi punto de vista, y por lo que he puesto en práctica en el taller, considero que el constructor con parámetros (Lampara)
+es la mejor alternativa para empezar a usar constructores en clases como principiante, en especial porque es más clara, directa,
+explícita y no necesita conocimientos previos de Conceptos complejos como la clonación de objetos o static.
+
+
+
